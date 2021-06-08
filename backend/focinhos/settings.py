@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'ficha',
+    'focinhos',
 ]
 
 CORS_ORIGIN_WHITELIST = (
@@ -84,7 +85,7 @@ WSGI_APPLICATION = 'focinhos.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'focinho-ifc',
+        'NAME': 'focinhos-ifc',
         'USER': 'postgres',
         'PASSWORD': '101010',
         'HOST': 'localhost',
