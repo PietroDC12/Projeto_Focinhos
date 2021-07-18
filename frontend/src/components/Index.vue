@@ -1,15 +1,14 @@
 <template>
-  <div>
-    <h1> aaaaaa </h1>
+  <div class="container">
     
   </div>
 </template>
  
 <script>
-
-
 export default {
-  name: "BuscaID",
-  
+  name: "Index",
+  data(){
+
+  },
 };
 </script>

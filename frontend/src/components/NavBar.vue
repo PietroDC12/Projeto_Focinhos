@@ -16,7 +16,7 @@
           <a
             class="nav-link"
             style="color: rgba(71, 82, 94, 100)"
-            href="/"
+            href="/add-ficha"
             >Adicionar Ficha</a
           >
         </li>
@@ -24,7 +24,7 @@
           <a
             class="nav-link"
             style="color: rgba(71, 82, 94, 100)"
-            href="/"
+            href="/busca-imagem"
             >Busca por Imagem</a
           >
         </li>
@@ -32,7 +32,7 @@
           <a
             class="nav-link"
             style="color: rgba(71, 82, 94, 100)"
-            href="/"
+            href="/busca-id"
             >Busca por ID</a
           >
         </li>
