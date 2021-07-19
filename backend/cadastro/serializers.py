@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from cadastro.models import Info
+from .models import Info
 
 class InfoSerializer(serializers.ModelSerializer):
     class Meta:

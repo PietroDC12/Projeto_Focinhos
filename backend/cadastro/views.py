@@ -1,7 +1,7 @@
 from rest_framework import generics, permissions
 
-from cadastro.models import Info
-from cadastro.serializers import InfoSerializer
+from .models import Info
+from .serializers import InfoSerializer
 
 class InfoList(generics.ListAPIView):
     
