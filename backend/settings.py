@@ -42,6 +42,11 @@ INSTALLED_APPS = [
     'backend.cadastro',
 ]
 
+CORS_ORIGIN_WHITELIST = (
+       'http://localhost:8080',
+       'http://localhost'
+)
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -50,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -119,8 +125,21 @@ USE_L10N = True
 
 USE_TZ = True
 
+CORS_ORIGIN_ALLOW_ALL = True
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+#REST_FRAMEWORK = {
+#   'DEFAULT_AUTHENTICATION_CLASSES': (
+#       'rest_framework.authentication.TokenAuthentication',
+#   ),
+#   'DEFAULT_PERMISSION_CLASSES': (
+#        'rest_framework.permissions.IsAdminUser'
+#   ),
+#}
+
+
