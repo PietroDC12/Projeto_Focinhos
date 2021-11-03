@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'backend.cadastro',
+    #'backend.buscaid'
 ]
 
 CORS_ORIGIN_WHITELIST = (
@@ -141,5 +143,14 @@ STATIC_URL = '/static/'
 #        'rest_framework.permissions.IsAdminUser'
 #   ),
 #}
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'djangoProject/static')
+]
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
 
 
