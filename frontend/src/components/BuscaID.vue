@@ -1,14 +1,11 @@
 <template>
   <div class="container">
-    <div class="row">
-                <div class="col-12">
-                    <form action="{% url 'buscar' %}">
-                        <input type="text" name="buscar" placeholder="O que está procurando...">
-                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                    </form>
-                </div>
-            </div>
-  </div>
+    <h1> Busca cachorro</h1>
+      <ul>
+        <li v-for="info in cadastro" :key="info.cachorro_id"> {{ info.nome_cachorro }}</li>
+      </ul>
+    <button @click="getFicha">Busca</button>
+    </div>
 </template>
  
 <script>

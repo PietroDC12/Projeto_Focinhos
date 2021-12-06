@@ -30,10 +30,3 @@ class InfoGet(generics.RetrieveAPIView):
     queryset = Info.objects.all()
     serializer_class = InfoSerializer
     permission_classes = ()
-
-
-
-#def addficha(request):
-    #if request.method == 'POST':
-        #nome_cachorro = request.POST['nome_cachorro']
-       # nome = request.POST['nome']

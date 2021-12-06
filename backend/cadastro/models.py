@@ -25,7 +25,7 @@ class Info(models.Model):
     endereco = models.CharField(max_length=200, blank=True)
     email = models.EmailField(max_length=75, blank=True)
     telefone = models.CharField(max_length=14, blank=True)
-    imagem_focinho = models.FileField(upload_to='banco_imagens', blank=True)
+    imagem_focinho = models.FileField(blank=True)
 
     def __str__(self):
         return self.nome_cachorro
