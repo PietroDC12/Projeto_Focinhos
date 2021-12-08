@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    
-    "lint": "vue-cli-service lint",
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -15,7 +13,7 @@
     "bootstrap-vue": "^2.21.2",
     "chokidar": "^3.5.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.14",
+    "vue": "^2.6.11",
     "vue-router": "^3.5.2",
     "vuex": "^3.6.2"
   },
