@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1> aaaaaa </h1>
+    <h1> Página para a busca de um cachorro por meio de uma imagem </h1>
     
   </div>
 </template>
