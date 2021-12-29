@@ -36,6 +36,14 @@
             >Busca por ID</a
           >
         </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            style="color: rgba(71, 82, 94, 100)"
+            href="/tutorial"
+            >Tutorial</a
+          >
+        </li>
       </ul>
     </div>
   </nav>

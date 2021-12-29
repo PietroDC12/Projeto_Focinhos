@@ -5,6 +5,7 @@ import Index from '../components/Index.vue'
 import AddFicha from '../components/AddFicha.vue'
 import BuscaID from '../components/BuscaID.vue'
 import BuscaImagem from '../components/BuscaImagem.vue'
+import Tutorial from '../components/Tutorial.vue'
 
 
 //import { component } from 'vue/types/umd';
@@ -34,7 +35,11 @@ export default new VueRouter({
       name: 'BuscaImagem',
       component: BuscaImagem
     },
-    
+    {
+      path: '/tutorial',
+      name: 'Tutorial',
+      component: Tutorial
+    },
 
 
   ]
