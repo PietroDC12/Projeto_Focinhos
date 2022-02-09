@@ -1,2 +1,2 @@
 # Projeto_Focinhos
- Projeto para IFC Araquari
+ Projeto de Pesquisa do Instituto Federal Catarinensnse -Campus Araquari
